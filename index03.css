@@ -1,0 +1,245 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    filter: blur(4px);
+}
+.header{
+     display:flex;
+     width:50vw;
+     justify-content: space-between;
+     margin: 0px auto;
+}
+
+.p1{
+     font-size: 45px;
+     font-weight: bold;
+}
+.p2{
+    font-size: 45px;
+
+}
+.plus-button{
+     font-size: 47px;
+     color: red;
+}
+
+.container{
+width:62vw;
+display:flex;
+flex-wrap: wrap;
+gap: 42px;
+justify-content: space-around;
+margin: 19px auto;
+}
+
+.box1{
+border:3px solid red;
+border-radius: 18px;
+width:15vw;
+height:40vh;
+box-shadow: 8px 8px 8px gray;
+display: flex;
+flex-direction: column;
+}
+.box{
+color:red;
+font-size: 25px;
+text-align:center;
+}
+a{
+color:red;
+text-decoration: none;
+}
+
+hr{
+width:70%;
+margin:3px;
+align-self: flex-end;
+}
+.complete{
+text-decoration: line-through;
+color: red;
+text-align: center;
+margin-right: 15px;
+font-size: 20px;
+}
+.check{
+font-size: 20px;
+margin-left: 15px;
+}
+
+
+.box2{
+border:3px solid red;
+border-radius: 18px;
+width:15vw;
+height:40vh;
+box-shadow: 8px 8px 8px gray;
+display:flex;
+flex-direction: column;
+}
+.box3{
+border:3px solid red;
+border-radius: 18px;
+width:15vw;
+height:40vh;
+box-shadow: 8px 8px 8px gray;
+display:flex;
+flex-direction: column;
+}
+.box4{
+border:3px solid red;
+border-radius: 18px;
+width:15vw;
+height:40vh;
+box-shadow: 8px 8px 8px gray;
+margin-left: 166px;
+display:flex;
+flex-direction: column;
+}
+.box5{
+border:3px solid red;
+border-radius: 18px;
+width:15vw;
+height:40vh;
+box-shadow: 8px 8px 8px gray;
+margin-right: 180px;
+display:flex;
+flex-direction: column;
+}
+
+.active{
+    background-color: white;
+    border: 3px solid red;
+    border-radius:15px;
+    box-shadow: 8px 8px 8px gray;
+    width: 25vw;
+    height:30vh;
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    bottom:217px;
+    left: 565px;
+    row-gap: 32px;
+    align-items: center;
+}
+.add{
+    font-size: 30px;
+    color:red;
+    margin-top: 17px;
+}
+.input-box input{
+    border: 3px solid red;
+    box-shadow: 8px 8px 8px gray;
+    width:18rem;
+    height:2rem;
+    border-radius: 6px;
+}
+.button-icon button{
+    font-size: 20px;
+    color:white;
+
+}
+button{
+    background-color: red;
+    border-radius: 33px;
+    border: 3px solid red;
+    width:7rem;
+    height:3rem;
+}
+
+@media only  screen  and (min-width:320px)and (max-width:480px){
+.header{
+      display:flex;
+      width:95vw;
+      justify-content: space-between;
+}
+
+.p1{
+     font-size: 35px;
+     font-weight: bold;
+
+}
+.p2{
+     font-size: 35px;
+
+}
+.plus-button{
+     font-size: 40px;
+     color: red;
+}
+.container{
+     width:95vw;
+     display:flex;
+     flex-direction: column;
+     gap: 30px;
+     align-items: center;
+}
+.box1{
+     border:3px solid red;
+     width:90vw;
+     height:13vh;
+}
+.box2{
+     border:3px solid red;
+     width:90vw;
+     height:13vh;
+}
+.box3{
+     border:3px solid red;
+     width:90vw;
+     height:13vh;
+}
+.box4{
+     border:3px solid red;
+     margin-left: 0px;
+     width:90vw;
+     height:13vh;
+}
+.box5{
+    border:3px solid red;
+    margin-right: 0px;
+    width:90vw;
+    height:13vh;
+}
+.complete,hr,.check{
+       display:none;
+}
+.box{
+ text-align: left;
+ font-size: 25px;
+ padding-top: 13px;
+ margin-left: 10px;
+}
+.active{
+        
+    width: 82vw;
+    height:30vh;
+    left: 39px;
+    row-gap: 20px;
+   
+}
+.add{
+    font-size: 25px;
+    margin-top: 36px;
+}
+.input-box input{
+    
+    width:10rem;
+    height:22px;
+    border-radius: 6px;
+}
+.button-icon button{
+    font-size: 17px;
+    
+
+}
+button{
+    
+    width:5rem;
+    height:30px;
+}
+
+
+
+}
